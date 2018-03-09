@@ -20,5 +20,6 @@ stuff in here at some point in the near future.
 ```
 #### Example Queries
 Find processes whose binary has been deleted from disk.
+
 `SELECT name, path, pid FROM processes WHERE on_disk = 0;`
 
