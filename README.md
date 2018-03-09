@@ -6,7 +6,9 @@ stuff in here at some point in the near future.
 
 ### Links
 [ReadTheDocs](https://osquery.readthedocs.io)
+
 [Install on Windows](https://osquery.readthedocs.io/en/stable/installation/install-windows/)
+
 [OSQuery Intro to SQL](https://osquery.readthedocs.io/en/stable/introduction/sql/)
 
 ### osqueryi
