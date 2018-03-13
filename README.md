@@ -11,7 +11,7 @@ stuff in here at some point in the near future.
 
 [OSQuery Intro to SQL](https://osquery.readthedocs.io/en/stable/introduction/sql/)
 
-[Windows Ansible Chocolatey Docs](http://docs.ansible.com/ansible/latest/win_package_module.html)
+[Windows Package Install Ansible Docs](http://docs.ansible.com/ansible/latest/win_package_module.html)
 
 ### osqueryi
 ```
