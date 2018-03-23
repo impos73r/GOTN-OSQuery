@@ -39,4 +39,5 @@ Edit `osquery.flags` and add:
 --logger_tls_period=10
   ```
   
-  Restart `osqueryd` service.
+  ## Restart `osqueryd` service
+`Restart-Service osqueryd`
