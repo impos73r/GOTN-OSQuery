@@ -13,6 +13,8 @@ stuff in here at some point in the near future.
 
 [Windows Package Install Ansible Docs](http://docs.ansible.com/ansible/latest/win_package_module.html)
 
+[Schema Documentation](https://osquery.io/schema/2.11.2)
+
 ### osqueryi
 ```
 .tables # Show all available tables
