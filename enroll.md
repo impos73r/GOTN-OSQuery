@@ -14,6 +14,8 @@ Root directory: `C:\ProgramData\osquery\`
 ## Download cert and key
 Browse to [fleet.scriptingis.life]("https://fleet.scriptingis.life") and login. Click 'Add New Host' in the top right.
 
+`admin : g0tn-d3m0`
+
 Download Kolide Certificate to `C:\ProgramData\osquery\certs\certificate.pem`
 
 Download Enroll Secret to `C:\ProgramData\osquery\osquery.key`
