@@ -18,11 +18,9 @@ Browse to [fleet.scriptingis.life]("https://fleet.scriptingis.life") and login. 
 
 Download Kolide Certificate to `C:\ProgramData\osquery\certs\fleet.scriptingis.life.pem`
 
-Download Enroll Secret to `C:\ProgramData\osquery\osquery.key`
-
 Edit `osquery.flags` and add:
 ```
---enroll_secret_path=C:\ProgramData\osquery\osquery.key
+--enroll_secret=L7BNXVfV95+Qsf8lRBGgD3IXI4erIWIG
 --tls_server_certs=C:\ProgramData\osquery\certs\fleet.scriptingis.life.pem
 --tls_hostname=fleet.scriptingis.life:443
 --host_identifier=hostname
@@ -42,4 +40,4 @@ Edit `osquery.flags` and add:
   ```
   
   ## Restart `osqueryd` service
-`Restart-Service osqueryd`
+`Start-Service osqueryd`
