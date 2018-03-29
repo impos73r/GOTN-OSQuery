@@ -21,7 +21,18 @@ stuff in here at some point in the near future.
 .exit
 ```
 #### Example Queries
-Find processes whose binary has been deleted from disk.
 
-`SELECT name, path, pid FROM processes WHERE on_disk = 0;`
+`SELECT * FROM logged_in_users;`
+
+View all programs that run at startup
+`SELECT name, path FROM startup_items;`
+
+`SELECT name FROM chrome_extensions;`
+
+`SELECT * FROM listening_ports ORDER BY pid;`
+
+`SELECT * FROM hash WHERE directory='C:\_CSECTOOLS\';`
+
+Find processes whose binary has been deleted from disk.
+`SELECT pid, name, path FROM processes WHERE on_disk = 0;`
 
