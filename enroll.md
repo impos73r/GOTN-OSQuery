@@ -16,7 +16,7 @@ Browse to [fleet.scriptingis.life]("https://fleet.scriptingis.life") and login. 
 
 `admin : g0tn-d3m0`
 
-Download Kolide Certificate to `C:\ProgramData\osquery\certs\certificate.pem`
+Download Kolide Certificate to `C:\ProgramData\osquery\certs\fleet.scriptingis.life.pem`
 
 Download Enroll Secret to `C:\ProgramData\osquery\osquery.key`
 
