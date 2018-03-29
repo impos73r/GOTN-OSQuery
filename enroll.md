@@ -7,7 +7,7 @@ Chocolatey is a package manager for Windows
 
 
 ## Install OSQuery and osqueryd service
-`choco install osquery --params="\InstallService"`
+`choco install osquery --params="/InstallService"`
 
 Root directory: `C:\ProgramData\osquery\`
 
