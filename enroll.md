@@ -23,7 +23,7 @@ Download Enroll Secret to `C:\ProgramData\osquery\osquery.key`
 Edit `osquery.flags` and add:
 ```
 --enroll_secret_path=C:\ProgramData\osquery\osquery.key
---tls_server_certs=C:\ProgramData\osquery\certs\certificate.pem
+--tls_server_certs=C:\ProgramData\osquery\certs\fleet.scriptingis.life.pem
 --tls_hostname=fleet.scriptingis.life:443
 --host_identifier=hostname
 --enroll_tls_endpoint=/api/v1/osquery/enroll
