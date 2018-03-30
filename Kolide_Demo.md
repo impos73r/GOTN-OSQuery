@@ -12,17 +12,15 @@ Chocolatey is a package manager for Windows
 Root directory: `C:\ProgramData\osquery\`
 
 ## Download cert and key
-Browse to [fleet.scriptingis.life]("https://fleet.scriptingis.life") and login. Click 'Add New Host' in the top right.
-
-`admin : g0tn-d3m0`
+Browse to the hostname of your kolide UI and login. Click 'Add New Host' in the top right.
 
 Download Kolide Certificate to `C:\ProgramData\osquery\certs\fleet.scriptingis.life.pem`
 
 Edit `osquery.flags` and add:
 ```
---enroll_secret=L7BNXVfV95+Qsf8lRBGgD3IXI4erIWIG
---tls_server_certs=C:\ProgramData\osquery\certs\fleet.scriptingis.life.pem
---tls_hostname=fleet.scriptingis.life:443
+--enroll_secret= {{SECRET KEY}}
+--tls_server_certs= {{KEY FILE}}
+--tls_hostname= {{HOSTNAME}}
 --host_identifier=hostname
 --enroll_tls_endpoint=/api/v1/osquery/enroll
 --config_plugin=tls
