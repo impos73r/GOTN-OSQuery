@@ -11,5 +11,8 @@ Chocolatey is a package manager for Windows
 
 Root directory: `C:\ProgramData\osquery\`
 
-## Restart `osqueryd` service
-`Start-Service osqueryd`
+## Run OSQueryi
+From a powershell console: `osqueryi`
+Congrats! Now youre up and running with OSQuery.
+
+Check out https://code.facebook.com/posts/844436395567983/introducing-osquery/ & https://code.facebook.com/posts/844436395567983/introducing-osquery/ for some example queries to run.
